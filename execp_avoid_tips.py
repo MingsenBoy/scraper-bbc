@@ -9,7 +9,7 @@ headers = {
 }
 
 response = requests.get(
-    f"https://www.bbc.com/zhongwen/trad/topics/cq8nqywy37yt?page={page}",
+    f"https://www.bbc.com/zhongwen/trad/topics/cq8nqywy37yt?page=1",
     headers = headers, timeout = 5)
 
 try:
